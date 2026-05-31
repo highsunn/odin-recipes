@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna recipe</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Homemade Lasagna</h1>
-    <img src="../images/Lasagna.webp" alt="Lasagna" width="800" height="533">
-    <h2>Description</h2>
-    <!-- Created a paragraph describing the recipe -->
-    <p>This is a delicious, 10-step homemade lasagna recipe with a meaty, made-from-scratch tomato sauce and a deliciously cheesy filling. A more traditional homemade lasagna filling would be made with ricotta but this recipe calls for a blend of small-curd cottage cheese and Parmesan. Serve with a leafy green salad and crusty garlic bread.</p>
-    <h3>Ingredients</h3>
+    <h1 class="heading">Homemade Lasagna</h1>
+    <div class="lasanga-ref">
+        <img src="../images/Lasagna.webp" alt="Lasagna" width="800" height="533" 
+        class="lasagna-pic">
+        <h2 class="heading">Description</h2>
+        <p class="desc">This is a delicious, 10-step homemade lasagna recipe with a meaty, made-from-scratch tomato sauce and a deliciously cheesy filling. A more traditional homemade lasagna filling would be made with ricotta but this recipe calls for a blend of small-curd cottage cheese and Parmesan. Serve with a leafy green salad and crusty garlic bread.</p>
+    </div>
+    
+    <h3 id="ingredients">Ingredients</h3>
     <ul>
         <li>
             <p>½ pound ground pork</p>
@@ -69,7 +73,7 @@
         </li>
     </ul>
     <!-- Made an ordered list of the steps. -->
-    <h3>Steps</h3>
+    <h3 id="steps">Steps</h3>
     <ol>
         <li>
             <p>Gather all ingredients.</p>
@@ -112,6 +116,6 @@
         </li>
     </ol>
 
-    <a href="../index.html">Home</a>
+    <a href="../index.html" id="home">Home</a>
 </body>
 </html>

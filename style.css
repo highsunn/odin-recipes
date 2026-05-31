@@ -1,0 +1,33 @@
+body{
+    background-color: #d2fcaa;
+    margin: 0px;
+}
+
+.heading, .listed{
+    font-family: "Noto Serif Display";
+}
+.heading{
+    text-align: center;
+    font-size: 2em;
+}
+span{
+    font-size: 1.3em;
+}
+.title-heading{
+    font-size: 3em;
+}
+.little{
+    font-size: 1.7em;
+}
+hr{
+    margin-bottom: 30px;
+}
+.listed{
+    text-align: center;
+    text-decoration: none;
+}
+.listed .recipe{
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px;
+}

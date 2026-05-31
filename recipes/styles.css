@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-color: #d2fcaa;
+    font-family: Georgia;
+}
+.heading{
+    text-align: center;
+    font-size: 4em;
+    font-family: "Noto Serif Display";
+}
+.lasanga-ref{
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #00e034;
+}
+.lasagna-pic{
+    display: block;
+}
+.lasanga-ref h2{
+    text-align: center;
+    font-size: 2em;
+}
+.desc{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#ingredients, #steps{
+    margin-left: 12px;
+    font-size: 2em;
+}
+#home{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
